@@ -1,0 +1,21 @@
+generated: '2026-07-19'
+method: searched
+source: https://www.illumix.com/technology.html
+notes: >-
+  Illumix publishes no machine-readable API specification, so cross-cutting API standards
+  (OAuth2/OIDC, RFC 9457, JSON:API, pagination, idempotency) cannot be derived. The compliance
+  certifications below are asserted on the company's public technology page as part of its
+  full-stack spatial AI platform offering.
+standards:
+- id: soc2
+  name: SOC 2 (Type II)
+  conforms: true
+  evidence: 'Technology page lists "compliance certifications (COPPA, GDPR, SOC II)"'
+- id: gdpr
+  name: GDPR
+  conforms: true
+  evidence: 'Technology page lists GDPR among platform compliance certifications'
+- id: coppa
+  name: COPPA
+  conforms: true
+  evidence: 'Technology page lists COPPA among platform compliance certifications'

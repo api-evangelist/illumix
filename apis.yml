@@ -1,8 +1,16 @@
 aid: illumix
 name: Illumix
-description: Illumix is a company surfaced as a portfolio company of lightspeed-venture-partners and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Illumix is an enterprise-grade spatial AI company spun out of Stanford's Computer Science
+  Department, providing a core stack for real-world location intelligence that runs at the edge
+  with centimeter-level precision. Its hardware-agnostic platform delivers sub-second localization
+  and 3D mapping across mobile devices, AR/VR wearables, and robotics using standard cameras — with
+  no LiDAR or GPS dependency — combining multimodal vision-language AI with long-term memory that
+  learns behavior over time. Illumix serves AI/XR wearables, enterprise and logistics, defense and
+  security, location-based entertainment, and robotics, with deployments referenced for Disney, Six
+  Flags, Cedar Fair, MGM Resorts, Warner Bros, Verizon, and Sony. The company markets developer
+  APIs and an SDK as part of a full-stack offering, but publishes no public developer portal,
+  reference documentation, or machine-readable API specification at this time.
 url: https://raw.githubusercontent.com/api-evangelist/illumix/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,14 +18,54 @@ x-backed-by:
 - lightspeed-venture-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://illumix.com/images/ILLUMIX_PRIMARY_LOGO%20(1).png
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Spatial AI
+- Augmented Reality
+- Computer Vision
+- Localization
+- Edge AI
+- Robotics
+- Wearables
+- XR
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+common:
+- type: DomainSecurity
+  url: security/illumix-domain-security.yml
+- type: Website
+  url: https://www.illumix.com
+- type: TermsOfService
+  url: https://www.illumix.com/terms-of-service.html
+- type: PrivacyPolicy
+  url: https://www.illumix.com/privacy-policy.html
+- type: Support
+  url: https://www.illumix.com/contact.html
+- type: Compliance
+  url: https://www.illumix.com/technology.html
+- type: Conformance
+  url: conformance/illumix-conformance.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
