@@ -48,7 +48,7 @@ tags:
 - Company
 - Spatial AI
 - Augmented Reality
-- Computer-Vision
+- Computer Vision
 - Localization
 - Edge AI
 - Robotics
@@ -64,6 +64,7 @@ tags_raw:
 - Robotics
 - Wearables
 - XR
+- Computer-Vision
 apis: []
 maintainers:
 - FN: Kin Lane
